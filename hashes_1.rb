@@ -1,5 +1,5 @@
 
-Activity:
+# Activity:
 
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
@@ -7,23 +7,23 @@ Activity:
 # `ruby hashes_1.rb`
 
 foods = {"apples": 23, "grapes": 507, "eggs": 48}
-p zoo
 
 # Write code that prints all of the 'keys' of the foods variable 
 # you created above:
-# YOUR CODE HERE
+puts foods.keys
 
 # Write code that prints all of the 'values' of the foods variable 
 # you created above:
-# YOUR CODE HERE
+puts foods.values
 
 # Write code that prints the value of the second food of the foods variable 
 # you created above:
-# YOUR CODE HERE
+puts food.values[1]
 
 # Write code that adds a food to the foods hash. 
 # Then, print the updated hash:
-# YOUR CODE HERE
+foods["steak"] = 2
+puts foods.keys
 
 
 #-------------------
@@ -37,16 +37,17 @@ p zoo
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
-# Write code that prints your email hash to the terminal.
+email = {user_name: "goddamnitbobby25@gmail.com", messages: 52, drafts: 48, active: true,
+time_online: [569.12]}
 
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
-# YOUR CODE HERE
+puts email.keys
 
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
-# YOUR CODE HERE
+puts email.values
 
 
 #-------------------
@@ -97,3 +98,28 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails = [
+  {
+    user_name: "steviebob221",
+    messages: 5,
+    drafts: 2,
+    active: false,
+    time_online: [2.01]
+  }, 
+  {
+    user_name: "beebiestov122",
+    messages: 200,
+    drafts: 24,
+    active: true,
+    time_online: [224.11]
+  },
+  {
+    user_name: "stevebobfinal12",
+    messages: 2020,
+    drafts: 2,
+    active: true,
+    time_online: [334.33]
+  }
+]
+puts emails

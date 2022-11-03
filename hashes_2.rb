@@ -8,7 +8,11 @@ states = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each state name and abbreviation
-#
+puts "The state of #{states.keys[0]} is abreviated by #{states.values[0]}."
+puts "The state of #{states.keys[1]} is abreviated by #{states.values[1]}."
+puts "The state of #{states.keys[2]} is abreviated by #{states.values[2]}."
+puts "The state of #{states.keys[3]} is abreviated by #{states.values[3]}."
+
 #
 #
 
@@ -27,7 +31,10 @@ birthdays = {
 #
 #
 #
-
+puts "My friend #{birthdays.keys[0]} was born on #{birthdays.values[0]}."
+puts "My friend #{birthdays.keys[1]} was born on #{birthdays.values[1]}."
+puts "My friend #{birthdays.keys[2]} was born on #{birthdays.values[2]}."
+puts "My friend #{birthdays.keys[3]} was born on #{birthdays.values[3]}."
 
 # ======================================
 # 3- Using the following Hash
@@ -43,3 +50,6 @@ login_statuses = {
 #
 #
 #
+puts login_statuses.keys[0]
+puts login_statuses.keys[2]
+puts login_statuses.keys[3]
