@@ -47,9 +47,9 @@ login_statuses = {
 }
 
 # Use the each method to iterate through it and print ONLY the names of friends who are "logged in"
-#
-#
-#
-puts login_statuses.keys[0]
-puts login_statuses.keys[2]
-puts login_statuses.keys[3]
+login_statuses.each do |login, status|
+
+  if status
+    puts login
+  end
+end
